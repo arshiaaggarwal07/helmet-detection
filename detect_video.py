@@ -38,7 +38,7 @@ while cap.isOpened():
                             1, (0, 0, 255), 2)
 
                 # Save violation image
-                cv2.imwrite(f"violation_{time.time()}.jpg", frame)
+                # cv2.imwrite(f"violation_{time.time()}.jpg", frame)
 
     # Show video
     cv2.imshow("Helmet Detection", annotated_frame)
